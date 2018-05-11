@@ -1,3 +1,22 @@
-<% @cocktails.each do |cocktail| %>
-  <h2><%= cocktail.name %></h2>
-<% end %>
+<h1 class="text-center">COCKTAILS...miam miam miam :) </h1>
+
+<div class="container">
+  <div class="row">
+    <% @cocktails.each do |cocktail| %>
+  </div>
+
+
+  <h2 class="row">
+    <div class = "col-xs-4">
+      <%= cocktail.name %>
+  </h2>
+    <% end %>
+
+  <div class ="row">
+    <div class = "col-xs-4 col-xs-offset-4">
+      <%= render 'form', cocktail: @cocktail %>
+    </div>
+  </div>
+
+</div>
+
