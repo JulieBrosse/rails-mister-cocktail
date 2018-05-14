@@ -7,10 +7,11 @@ end
 
 ruby '2.4.3'
 
-gem 'figaro'
 
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'carrierwave', '~> 1.2'
+gem 'cloudinary'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.6'
 # Use postgresql as the database for Active Record
@@ -36,6 +37,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'figaro'
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
